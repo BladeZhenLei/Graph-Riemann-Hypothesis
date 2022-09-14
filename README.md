@@ -2,7 +2,7 @@
 The famous Riemann hypothesis is closely related to the distribution of primes. In graph theory, by defining prime paths, a graph is said to be Ramanujan if and only if its Ihara zeta function satisfies an analogy of the Riemann hypothesis. This concept was origionally introduced by Toshikazu Sunada in 1985 and developed by A.A.Terras and H.M. Stark.
 
 ###  Prime Paths
-For a connected, finite graph $X$, its edges can be labeled as $(e_1,e_2,...,e_m)$, $e_{m+1}=e_1^{-1}$ and $e_{2m}=e_m^{-1}$, where $m=|E(X)|$ is the non-oriented edeges, and $e_j^{-1}=e_{j+m}$ denote opposite orientation. Then, we can define paths $C=(a_1,a_2,...,a_n)$, where $a_i$ is an oriented edge of $X$, there exist a $backtracking$ if $a_{i+1}=a_i^{-1}$, the path is said to have a $tail$ if $a_{n}=a_1^{-1}$. The path $C$ is a $closed$ $path$ or a $cycle$ when it consists of vertices $(v_1,v_2,...,v_m=v_1)$, and the closed path is $primitive$ if it has no tail or backtracking and $C\neq{D^f}$ for $f>1$, meaning the path is only allowed once.
+For a connected, finite graph $X$, its edges can be labeled as $(e_1,e_2,...,e_m)$, $e_{m+1}=e_1^{-1}$ and $e_{2m}=e_m^{-1}$, where $m=|E(X)|$ is the non-oriented edeges, and $e_j^{-1}=e_{j+m}$ denote opposite orientation. Then, we can define paths $C=(a_1,a_2,...,a_n)$, where $a_i$ is an oriented edge of $X$, there exist a $backtracking$ if $a_{i+1}=a_i^{-1}$, the path is said to have a $tail$ if $a_{n}=a_1^{-1}$. The path $C$ is a $closed$ $path$ or a $cycle$ when it consists of vertices $(v_1,v_2,...,v_m=v_1)$, and the closed path is $primitive$ if it has no tail or backtracking and $C\neq{D^f}$ for $f\geq{1}$, meaning the path is only allowed once.
 
 For a closed path $C$, the $equivalence$ $class$ $[C]$ is defined as 
 $[C]=\lbrace{a_1}\cdot\cdot\cdot{a_n},{a_2}\cdot\cdot\cdot{a_n},{a_n}{a_1}\cdot\cdot\cdot{a_{n-1}}\rbrace$,
@@ -27,9 +27,6 @@ This is the simplest case of the graph zeta function, where no computation of th
 Consider a finitely connected $k$-regular graph $X$ with its adjacency matrix $A$, it is said that if $\lambda(A)\neq{\pm{k}}$, then it is a non-trivial solution, and the graph is called a $Ramanujan$ $graph$, if and only if that all $\lambda$ of $A$ satisfies $|\lambda|\leq{2\sqrt{k-1}}$.
 <p/>
 
-Friedman proved that a random regular graph is almost Ramanujan. After that, Miller showed that the proportion of regular graphs exactly satisfying the RH approaches 0.27 as the number of vertices approaches infinity.
-<p/>
-
 The complete graph $K_n$ is a Ramanujan graph, its adjacency matrix has the characteristic polynomial
 $$(\lambda-(n-1))(\lambda+1))^{n-1}.$$
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187332359-5131ca2b-bc71-433d-a76d-bc8fb6b393c3.PNG" width="180" height="170"> <p/>
@@ -48,6 +45,8 @@ then we have the reciprocal polynomial of zeta function $$\zeta_X^{-1}\left(u\ri
 
 ### Quantum Chaos
 The study of Odlyzko has shown that the normalized spacings of the non-trivial Riemann Zeta zeros is close to a GUE emsemble. 
+Friedman proved that a random regular graph is almost Ramanujan. After that, Miller showed that the proportion of regular graphs exactly satisfying the RH approaches 0.27 as the number of vertices approaches infinity.
+<p/>
 
 <p/>
 <script type="text/javascript" charset="utf-8" src=" https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML, https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
