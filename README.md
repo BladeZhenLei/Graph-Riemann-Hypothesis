@@ -54,7 +54,5 @@ where $N$ is the number of closed paths in $X$ of length $m$ with no backtrackin
 The study of Odlyzko has shown that the normalized spacings of the non-trivial Riemann Zeta zeros is close to a GUE emsemble. 
 Friedman proved that a random regular graph is almost Ramanujan. After that, Miller showed that the proportion of regular graphs exactly satisfying the RH approaches 0.27 as the number of vertices approaches infinity. A random k-regular graph has $\lambda_{2}\leq{2\sqrt{(k-1)}+2log(k)+O(1)}.$ This gives the precise measurement of the graphs in terms of the eigenvalue function and shows that the Ramanujan graphs have small diameters.
 
-<p/>
-<p align="center">...TO BE CONTINUED...<p/>
-<p/>
-<script type="text/javascript" charset="utf-8" src=" https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML, https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+<p/><p align="center">...TO BE CONTINUED...<p/>
+<p/><script type="text/javascript" charset="utf-8" src=" https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML, https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
