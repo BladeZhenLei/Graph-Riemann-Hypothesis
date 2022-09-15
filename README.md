@@ -16,7 +16,7 @@ The Ihara zeta function is computed by the product over the equivalence class of
 $$[C]=\lbrace{e_2}{e_3}{e_5}\rbrace,$$ 
 $$\[D\]=\lbrace{e_1}{e_2}{e_3}{e_4}\rbrace,$$
 $$\[E\]=\lbrace{e_1}{e_2}{e_3}{e_4}{e_1}{e_{10}}{e_4}\rbrace.$$ 
-Here, $e_10={e_5}^{-1}$ is the backtracking, the path lengths are $v(C)=3$, $v(D)=4$, and $v(E)=7$, respectively. In this case, there are infinitely many primes.
+Here, $e_10={e_5}^{-1}$ is the backtracking, and there are infinitely many primes.
 
 ### Zeta Function of Graphs
 Consider a cycle graph $X$ with $n$ vertices, shown in Fig.2. There are two primitive paths, one going around clockwise once, and the other going around counterclockwise once. The corresponding zeta function will be 
