@@ -13,9 +13,9 @@ A $prime$ in $X$ is an equivalence class $\[C\]$ of prime paths, the path length
 <p align="center"> Arbitrary orientation for $(e_1,e_2,e_3,e_4,e_5)$ </p>
 
 The Ihara zeta function is computed by the product over the equivalence class of prime paths. Some examples of primes are 
-$$ \[C\]=\lbrace{e_2}{e_3}{e_5}\rbrace, $$ 
-$$ \[D\]=\lbrace{e_1}{e_2}{e_3}{e_4}\rbrace, $$  
-$$ \[E\]=\lbrace{e_1}{e_2}{e_3}{e_4}{e_1}{e_{10}}{e_4}\rbrace.$$ 
+$$\[C\]=\lbrace{e_2}{e_3}{e_5}\rbrace,$$ 
+$$\[D\]=\lbrace{e_1}{e_2}{e_3}{e_4}\rbrace,$$  
+$$\[E\]=\lbrace{e_1}{e_2}{e_3}{e_4}{e_1}{e_{10}}{e_4}\rbrace.$$ 
 Here, $e_10={e_5}^{-1}$ is the backtracking, the path lengths are $v(C)=3$, $v(D)=4$, and $v(E)=7$, respectively. In this case, there are infinitely many primes.
 
 ### Zeta Function of Graphs
