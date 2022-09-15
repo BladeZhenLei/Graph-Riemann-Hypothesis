@@ -20,7 +20,9 @@ $$[E]=\lbrace{e_1}{e_2}{e_3}{e_4}{e_1}{e_{10}}{e_4}\rbrace.$$
 Here, $e_{10}={e_5}^{-1}$ is the backtracking, the path lengths are 3, 4, 7, and there are infinitely many primes.
 
 ### Zeta Function of Graphs
-Consider a cycle graph $X$ with $n$ vertices, shown in Fig.2. There are two primitive paths, one going around clockwise once, and the other going around counterclockwise once. The corresponding zeta function will be 
+The Ihara zeta function is computed by the product over the equivalence class of prime paths.
+<br/>
+For a cycle graph $X$ with $n$ vertices, shown in Fig.2. There are two primitive paths, one going around clockwise once, and the other going around counterclockwise once. The corresponding zeta function will be 
 $$\zeta_X\left(u\right)=\prod_{\left\[C\right\]}{({1-u^{v\left(C\right)})}^{-1}} = ({1-u^{n})}^{-1}({1-u^{n})}^{-1}.$$
 This is the simplest case of the graph zeta function, where no computation of the prime class was considered. Furthermore, if there exist a prime path, then there would be a prime power decomposition into graphs.
 
@@ -28,7 +30,7 @@ This is the simplest case of the graph zeta function, where no computation of th
 <p align="center"> n-cycle graph</p>
 
 ### Ramanujan Graphs
-Consider the Peterson graph, which has $(\lambda-3)(\lambda+2)^4(\lambda-1)^5,$ one can easily check that $2\leq2\sqrt{2}.$
+In the case of the Peterson graph, which has $(\lambda-3)(\lambda+2)^4(\lambda-1)^5,$ one can easily check that $2\leq2\sqrt{2}.$
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187332360-47bc5e53-13f1-4ae0-b65d-4d5817294e7e.png" width="160" height="150"> <p/>
 <p align="center"> Peterson graph </p>
 
@@ -42,8 +44,6 @@ The verification of this case involves computation of circulant matrix.
 <p/>
 
 ### The Graph Riemann Hypothesis
-The Ihara zeta function is computed by the product over the equivalence class of prime paths.
-<br/>
 Let $X$ be a $q+1$ regular connected graph,
 then we have the reciprocal polynomial of zeta function 
 $$\zeta_X^{-1}\left(u\right)=\left(1-u^2\right)^{r-1}det\left(I-Au+qu^2I\right).$$
