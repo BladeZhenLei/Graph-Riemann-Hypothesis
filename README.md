@@ -17,7 +17,7 @@ Some examples of primes are
 $$[C]=\lbrace{e_2}{e_3}{e_5}\rbrace,$$ 
 $$[D]=\lbrace{e_1}{e_2}{e_3}{e_4}\rbrace,$$
 $$[E]=\lbrace{e_1}{e_2}{e_3}{e_4}{e_1}{e_{10}}{e_4}\rbrace.$$ 
-Here, $e_{10}={e_5}^{-1}$ is the backtracking, the path lengths are 3, 4, 7, and there are infinitely many primes.
+For the last example, $e_{10}={e_5}^{-1}$ is the backtracking, and hence there are infinitely many primes.
 
 ### Zeta Function of Graphs
 The Ihara zeta function is computed by the product over the equivalence class of prime paths. For a cycle graph $X$ with $n$ vertices, there are two primitive paths, one going around clockwise once, and the other going around counterclockwise once, and its corresponding zeta function will be 
