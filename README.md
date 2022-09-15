@@ -23,7 +23,7 @@ Consider a cycle graph $X$ with $n$ vertices, shown in Fig.2. There are two prim
 $$\zeta_X\left(u\right)=\prod_{\left\[C\right\]}{({1-u^{v\left(C\right)})}^{-1}} = ({1-u^{n})}^{-1}({1-u^{n})}^{-1}.$$
 This is the simplest case of the graph zeta function, where no computation of the prime class was considered. Furthermore, if there exist a prime path, then there would be a prime power decomposition into graphs.
 
-<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187325623-ef6c34c3-656e-4ffc-b173-2135757965ce.png" width="150" height="130"> <p/>
+<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187325623-ef6c34c3-656e-4ffc-b173-2135757965ce.png" width="150" height="140"> <p/>
 <p align="center"> n-cycle graph</p>
 
 ### Ramanujan Graphs
