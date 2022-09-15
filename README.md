@@ -11,7 +11,6 @@ A $prime$ in $X$ is an equivalence class $[C]$ of prime paths, the path length i
 
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187326050-c8d93df8-d35c-4b4f-a9e4-c5ef29b08945.png" width="240" height="210"> <p/>
 <p align="center"> Arbitrary orientation for $(e_1,e_2,e_3,e_4,e_5)$ </p> 
-<br/>
 
 Some examples of primes are 
 $$[C]=\lbrace{e_2}{e_3}{e_5}\rbrace,$$ 
