@@ -42,18 +42,16 @@ Consider the Peterson graph, which has $(\lambda-3)(\lambda+2)^4(\lambda-1)^5,$ 
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187332360-47bc5e53-13f1-4ae0-b65d-4d5817294e7e.png" width="160" height="150"> <p/>
 <p align="center"> Peterson graph </p>
 
-A random k-regular graph has $\lambda_{2}\leq{2\sqrt{(k-1)}+2log(k)+O(1)}.$ This gives the precise measurement of the graphs in terms of the eigenvalue function and shows that the Ramanujan graphs have small diameters.
-
 Let $X$ be a $q+1$ regular connected graph,
 then we have the reciprocal polynomial of zeta function 
 $$\zeta_X^{-1}\left(u\right)=\left(1-u^2\right)^{r-1}det\left(I-Au+qu^2I\right).$$
 Here, $A$ is the adjacency matrix and $r$ is the $rank$ of the $fundamental$ $group$ of $X$. Extending this notion, one can find that 
 $$\zeta_X\left(u\right)=\exp{(\sum_{n=1}^{\infty}{N_mu^{m})}},$$
-where $N$ is the number of closed paths in $X$ of length $m$ with no backtracking or tails. This allows irregular graphs to be considered in the hypothesis. As of now, it remains a mystery whether this zeta function have a special meaning.
-
+where $N$ is the number of closed paths in $X$ of length $m$ with no backtracking or tails. This allows irregular graphs to be considered in the hypothesis.
 ### Quantum Chaos
 The study of Odlyzko has shown that the normalized spacings of the non-trivial Riemann Zeta zeros is close to a GUE emsemble. 
-Friedman proved that a random regular graph is almost Ramanujan. After that, Miller showed that the proportion of regular graphs exactly satisfying the RH approaches 0.27 as the number of vertices approaches infinity.
+Friedman proved that a random regular graph is almost Ramanujan. After that, Miller showed that the proportion of regular graphs exactly satisfying the RH approaches 0.27 as the number of vertices approaches infinity. A random k-regular graph has $\lambda_{2}\leq{2\sqrt{(k-1)}+2log(k)+O(1)}.$ This gives the precise measurement of the graphs in terms of the eigenvalue function and shows that the Ramanujan graphs have small diameters.
+
 <p/>
 
 <p/>
