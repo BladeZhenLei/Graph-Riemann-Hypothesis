@@ -9,7 +9,7 @@ $$\[C\]=\lbrace{a_1}\cdot\cdot\cdot{a_n},{a_2}\cdot\cdot\cdot{a_n},{a_n}{a_1}\cd
 two paths are called $equivalent$ if one can be obtained from the other by changing the starting vertex. 
 A $prime$ in $X$ is an equivalence class $\[C\]$ of prime paths, the path length is the edge count $v(C)=n$.
 
-<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187326050-c8d93df8-d35c-4b4f-a9e4-c5ef29b08945.png" width="240" height="200"> <p/>
+<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187326050-c8d93df8-d35c-4b4f-a9e4-c5ef29b08945.png" width="240" height="210"> <p/>
 <p align="center"> Arbitrary orientation for $(e_1,e_2,e_3,e_4,e_5)$ </p>
 
 The Ihara zeta function is computed by the product over the equivalence class of prime paths. Some examples of primes are 
@@ -23,7 +23,7 @@ Consider a cycle graph $X$ with $n$ vertices, shown in Fig.2. There are two prim
 $$\zeta_X\left(u\right)=\prod_{\left\[C\right\]}{({1-u^{v\left(C\right)})}^{-1}} = ({1-u^{n})}^{-1}({1-u^{n})}^{-1}.$$
 This is the simplest case of the graph zeta function, where no computation of the prime class was considered. Furthermore, if there exist a prime path, then there would be a prime power decomposition into graphs.
 
-<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187325623-ef6c34c3-656e-4ffc-b173-2135757965ce.png" width="120" height="110"> <p/>
+<p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187325623-ef6c34c3-656e-4ffc-b173-2135757965ce.png" width="150" height="130"> <p/>
 <p align="center"> n-cycle graph</p>
 
 ### Ramanujan Graphs
