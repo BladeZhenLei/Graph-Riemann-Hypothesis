@@ -12,12 +12,12 @@ A $prime$ in $X$ is an equivalence class $[C]$ of prime paths, the path length i
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187326050-c8d93df8-d35c-4b4f-a9e4-c5ef29b08945.png" width="200" height="180"> <p/>
 <p align="center"> Arbitrary orientation for $(e_1,e_2,e_3,e_4,e_5)$ </p>
 
-The Ihara zeta function is computed by the product over the equivalence class of prime paths. Some examples of primes are $[C]=\lbrace{e_2}{e_3}{e_5}\rbrace,$ $[D]=\lbrace{e_1}{e_2}{e_3}{e_4}\rbrace,$ and $[E]=\lbrace{e_1}{e_2}{e_3}{e_4}{e_1}{e_{10}}{e_4}\rbrace.$
+The Ihara zeta function is computed by the product over the equivalence class of prime paths. Some examples of primes are $[C]=\lbrace{e_2}{e_3}{e_5}\rbrace,$ $\[D\]=\lbrace{e_1}{e_2}{e_3}{e_4}\rbrace,$ and $\[E\]=\lbrace{e_1}{e_2}{e_3}{e_4}{e_1}{e_{10}}{e_4}\rbrace.$
 Here, $e_10={e_5}^{-1}$ is the backtracking, the path lengths are $v(C)=3$, $v(D)=4$, and $v(E)=7$, respectively. In this case, there are infinitely many primes.
 
 ### Zeta Function of Graphs
 Consider a cycle graph $X$ with $n$ vertices, shown in Fig.2. There are two primitive paths, one going around clockwise once, and the other going around counterclockwise once. The corresponding zeta function will be 
-$$\zeta_X\left(u\right)=\prod_{\left[C\right]}{({1-u^{v\left(C\right)})}^{-1}} = ({1-u^{n})}^{-1}({1-u^{n})}^{-1}.$$
+$$\zeta_X\left(u\right)=\prod_{\left\[C\right\]}{({1-u^{v\left(C\right)})}^{-1}} = ({1-u^{n})}^{-1}({1-u^{n})}^{-1}.$$
 This is the simplest case of the graph zeta function, where no computation of the prime class was considered. Furthermore, if there exist a prime path, then there would be a prime power decomposition into graphs.
 
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187325623-ef6c34c3-656e-4ffc-b173-2135757965ce.png" width="120" height="110"> <p/>
@@ -41,7 +41,11 @@ Consider the Peterson graph, which has $(\lambda-3)(\lambda+2)^4(\lambda-1)^5,$ 
 A random k-regular graph has $\lambda_{2}\leq{2\sqrt{(k-1)}+2log(k)+O(1)}.$ This gives the precise measurement of the graphs in terms of the eigenvalue function and shows that the Ramanujan graphs have small diameters.
 
 Let $X$ be a $q+1$ regular connected graph,
-then we have the reciprocal polynomial of zeta function $$\zeta_X^{-1}\left(u\right)=\left(1-u^2\right)^{r-1}det\left(I-Au+qu^2I\right).$$ Here, $A$ is the adjacency matrix and $r$ is the $rank$ of the $fundamental$ $group$ of $X$. Extending this notion, one can find that $$\zeta_X\left(u\right)=\exp{(\sum_{n=1}^{\infty}{N_mu^{m})}},$$ where $N$ is the number of closed paths in $X$ of length $m$ with no backtracking or tails. This allows irregular graphs to be considered in the hypothesis. As of now, it remains a mystery whether this zeta function have a special meaning.
+then we have the reciprocal polynomial of zeta function 
+$$\zeta_X^{-1}\left(u\right)=\left(1-u^2\right)^{r-1}det\left(I-Au+qu^2I\right).$$
+Here, $A$ is the adjacency matrix and $r$ is the $rank$ of the $fundamental$ $group$ of $X$. Extending this notion, one can find that 
+$$\zeta_X\left(u\right)=\exp{(\sum_{n=1}^{\infty}{N_mu^{m})}},$$
+where $N$ is the number of closed paths in $X$ of length $m$ with no backtracking or tails. This allows irregular graphs to be considered in the hypothesis. As of now, it remains a mystery whether this zeta function have a special meaning.
 
 ### Quantum Chaos
 The study of Odlyzko has shown that the normalized spacings of the non-trivial Riemann Zeta zeros is close to a GUE emsemble. 
