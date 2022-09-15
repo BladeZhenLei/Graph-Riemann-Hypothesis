@@ -32,8 +32,7 @@ This is the simplest case of the graph zeta function, where no computation of th
 Consider a finitely connected $k$-regular graph $X$ with its adjacency matrix $A$, it is said that if $\lambda(A)\neq{\pm{k}}$, then it is a non-trivial solution, and the graph is called a $Ramanujan$ $graph$, if and only if that all $\lambda$ of $A$ satisfies $|\lambda|\leq{2\sqrt{k-1}}$.
 <p/>
 
-The complete graph $K_n$ is a Ramanujan graph, its adjacency matrix has the characteristic polynomial
-$$(\lambda-(n-1))(\lambda+1))^{n-1}.$$
+The complete graph $K_n$ is a Ramanujan graph, its adjacency matrix has the characteristic polynomial $(\lambda-(n-1))(\lambda+1))^{n-1}.$
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187332359-5131ca2b-bc71-433d-a76d-bc8fb6b393c3.PNG" width="180" height="170"> <p/>
 <p align="center"> n-complete graph </p>
 The verification involves computation of circulant matrix.
