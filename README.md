@@ -22,7 +22,7 @@ Here, $e_{10}={e_5}^{-1}$ is the backtracking, the path lengths are 3, 4, 7, and
 ### Zeta Function of Graphs
 The Ihara zeta function is computed by the product over the equivalence class of prime paths.
 <br/>
-For a cycle graph $X$ with $n$ vertices, shown in Fig.2. There are two primitive paths, one going around clockwise once, and the other going around counterclockwise once. The corresponding zeta function will be 
+For a cycle graph $X$ with $n$ vertices, there are two primitive paths, one going around clockwise once, and the other going around counterclockwise once, and its corresponding zeta function will be 
 $$\zeta_X\left(u\right)=\prod_{\left\[C\right\]}{({1-u^{v\left(C\right)})}^{-1}} = ({1-u^{n})}^{-1}({1-u^{n})}^{-1}.$$
 This is the simplest case of the graph zeta function, where no computation of the prime class was considered. Furthermore, if there exist a prime path, then there would be a prime power decomposition into graphs.
 
