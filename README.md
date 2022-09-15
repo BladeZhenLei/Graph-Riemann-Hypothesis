@@ -28,12 +28,12 @@ This is the simplest case of the graph zeta function, where no computation of th
 <p align="center"> n-cycle graph</p>
 
 ### Ramanujan Graphs
+Consider a finitely connected $k$-regular graph $X$ with its adjacency matrix $A$, it is said that if $\lambda(A)\neq{\pm{k}}$, then it is a non-trivial solution, and the graph is called a $Ramanujan$ $graph$, if and only if that all $\lambda$ of $A$ satisfies $|\lambda|\leq{2\sqrt{k-1}}$.
+<p/>
+
 In the case of the Peterson graph, which has $(\lambda-3)(\lambda+2)^4(\lambda-1)^5,$ one can easily check that $2\leq2\sqrt{2}.$
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187332360-47bc5e53-13f1-4ae0-b65d-4d5817294e7e.png" width="160" height="150"> <p/>
 <p align="center"> Peterson graph </p>
-
-Consider a finitely connected $k$-regular graph $X$ with its adjacency matrix $A$, it is said that if $\lambda(A)\neq{\pm{k}}$, then it is a non-trivial solution, and the graph is called a $Ramanujan$ $graph$, if and only if that all $\lambda$ of $A$ satisfies $|\lambda|\leq{2\sqrt{k-1}}$.
-<p/>
 
 The complete graph $K_n$ is a Ramanujan graph, its adjacency matrix has the characteristic polynomial $(\lambda-(n-1))(\lambda+1))^{n-1}.$
 <p align="center"><img src= "https://user-images.githubusercontent.com/66701331/187332359-5131ca2b-bc71-433d-a76d-bc8fb6b393c3.PNG" width="180" height="170"> <p/>
